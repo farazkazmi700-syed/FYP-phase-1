@@ -1939,3 +1939,551 @@ Press CTRL+C to quit
 127.0.0.1 - - [22/May/2026 19:40:49] "GET /static/js/app.js HTTP/1.1" 304 -
 127.0.0.1 - - [22/May/2026 19:40:49] "GET /static/css/style.css HTTP/1.1" 200 -
 127.0.0.1 - - [22/May/2026 19:40:50] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:49:34] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:23] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:23] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:23] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:51:24] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:24] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:51:24] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:51:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:26] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:51:53] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:30] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:31] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:52:31] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:32] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:32] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:52:32] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:52:32] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:34] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:52:35] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:52:35] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:53:12] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:53:12] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:53:12] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:53:53] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:53:53] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:53:53] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:53:55] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:53:55] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:53:55] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:53:56] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:06] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:07] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:07] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:07] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:09] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:09] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:09] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:10] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:10] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:10] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:11] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:21] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:54:22] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:54:22] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:11] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:11] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:11] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:16] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:16] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:17] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:17] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:18] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:18] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:18] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:19] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:19] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:19] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:23] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:23] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:23] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:24] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:24] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:24] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:25] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:55] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:56] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:55:56] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:55:56] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:06] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:06] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:06] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:07] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:08] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:08] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:08] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:23] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:23] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:23] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:24] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:28] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:28] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:28] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:28] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:30] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:30] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:30] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:31] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:56:32] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:32] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:56:32] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:20] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:20] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:20] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:57:21] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:21] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:22] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:57:22] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:57:32] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:32] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:57:33] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:06] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:58:06] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:06] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:08] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:58:08] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:08] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:09] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:58:11] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:58:11] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:11] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:14] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 19:58:14] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:14] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 19:58:14] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:26] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:26] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:26] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:26] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:27] "GET /feedback HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:27] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:27] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:37] "POST /feedback/submit HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:37] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:00:38] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:38] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:00:38] "GET /api/health HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\backend\\chat.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\cycler\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\fontTools\\ttLib\\tables\\G_D_E_F_.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\google\\oauth2\\gdch_credentials.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\jupyterlab_plotly\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\numpy\\lib\\mixins.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\numpy\\typing\\tests\\data\\pass\\nditer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\numpy\\_distributor_init.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\packaging\\_tokenizer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\pip\\_internal\\network\\auth.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\express\\_core.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\choroplethmapbox\\colorbar\\_tickfont.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\histogram\\hoverlabel\\_font.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\isosurface\\_contour.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\layout\\template\\_data.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\parcoords\\_line.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\scattergeo\\selected\\_marker.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\scatterternary\\hoverlabel\\_font.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\graph_objs\\volume\\caps\\_x.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\plotly\\chunked_requests.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\bar\\selected\\marker\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\barpolar\\marker\\line\\_autocolorscale.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\box\\_y0.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\carpet\\aaxis\\_labelsuffix.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+127.0.0.1 - - [22/May/2026 20:02:55] "GET /auth/logout HTTP/1.1" 302 -
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\choropleth\\colorbar\\tickformatstop\\_dtickrange.py', reloading
+127.0.0.1 - - [22/May/2026 20:02:55] "GET /login HTTP/1.1" 200 -
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\choroplethmap\\colorbar\\_tickfont.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\choroplethmapbox\\hoverlabel\\font\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\cone\\hoverlabel\\_align.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\contour\\hoverlabel\\font\\_variantsrc.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\contourcarpet\\contours\\_coloring.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\densitymap\\stream\\_maxpoints.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\frame\\_baseframe.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\funnel\\textfont\\_weightsrc.py', reloading
+127.0.0.1 - - [22/May/2026 20:03:06] "GET /login HTTP/1.1" 200 -
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\funnelarea\\_uid.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\heatmapgl\\colorbar\\tickfont\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\histogram\\hoverlabel\\font\\_weight.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\histogram\\_hoverinfo.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\histogram2d\\_showscale.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\histogram2dcontour\\ybins\\_size.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\icicle\\marker\\line\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\image\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\isosurface\\caps\\y\\_fill.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\isosurface\\_ysrc.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\geo\\center\\_lon.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\map\\layer\\circle\\_radius.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\angularaxis\\tickformatstop\\_dtickrange.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\annotation\\_bgcolor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_autorange.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\shape\\label\\font\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\smith\\_bgcolor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\caxis\\tickformatstop\\_dtickrange.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\rangeselector\\_activecolor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_domain.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\mesh3d\\colorbar\\_bgcolor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\ohlc\\increasing\\line\\_dash.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\parcats\\_hoverinfo.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\pie\\domain\\_row.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\pointcloud\\hoverlabel\\_align.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\sankey\\node\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatter\\marker\\gradient\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatter3d\\hoverlabel\\_align.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatter3d\\marker\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattercarpet\\marker\\gradient\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattergeo\\marker\\colorbar\\_bgcolor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattergl\\hoverlabel\\font\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattergl\\_xhoverformat.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattermap\\selected\\marker\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattermapbox\\marker\\_colorscale.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\gradient\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatterpolargl\\marker\\colorbar\\tickformatstop\\_dtickrange.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattersmith\\hoverlabel\\_align.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scattersmith\\_customdatasrc.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\scatterternary\\selected\\marker\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\splom\\marker\\line\\_autocolorscale.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\streamtube\\lightposition\\_x.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\sunburst\\marker\\line\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\surface\\contours\\y\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\table\\header\\line\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\treemap\\marker\\line\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\violin\\legendgrouptitle\\font\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\volume\\contour\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\plotly\\validators\\waterfall\\legendgrouptitle\\font\\_color.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\pyasn1\\codec\\ber\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\pytz\\lazy.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\pytz\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\interpolate\\tests\\test_bary_rational.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\io\\tests\\test_wavfile.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\optimize\\tests\\test_bracket.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\signal\\waveforms.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\sparse\\_spfuncs.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\special\\_add_newdocs.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\scipy\\stats\\_unuran\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\setuptools\\command\\py36compat.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+ * Detected change in 'C:\\Users\\LENOVO\\OneDrive\\Desktop\\Combine\\phase1\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 752-387-959
+127.0.0.1 - - [22/May/2026 20:05:57] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:05:57] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:05:57] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:05:57] "GET /static/img/login-ai.png HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:06:01] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:06:01] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:06:01] "GET /static/img/login-ai.png HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:06:43] "GET /auth/google?next=/chat HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:07:02] "GET /auth/callback?state=vcyKfSGeCLWqcjBy0i1lmHZOzdUCP7&iss=https://accounts.google.com&code=4/0AeoWuM_AoTu5Cj5qXLGzS_oWrj7R3mzHbpjZBu_E4AfZ2xEiSp5gJzvM7YlwM_LcTN37qw&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:07:02] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:02] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:02] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:02] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:07] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:14] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:25] "POST /chat/send HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:30] "GET /feedback?message_id=86345042-fa34-4a87-9b02-ebe9a1782bc8&session_id=381b2699-f566-49c6-b32e-c78d62f02861 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:30] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:30] "GET /static/js/feedback.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:44] "POST /feedback/submit HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:45] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:45] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:45] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:46] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:48] "GET /auth/logout HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:07:48] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:07:49] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:07:49] "GET /static/img/login-ai.png HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:13:38] "GET /auth/google?next=/chat HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:13:54] "GET /auth/callback?state=LahM0WxprNPaFQ6i29dwW8aIRovHNR&iss=https://accounts.google.com&code=4/0AeoWuM8wDiQ7korQuq4Bq2-w-48lFtclidyQmkqbhpHnNtkjbWmo-rAuKJEpzkCz5yMkug&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 20:13:54] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:13:55] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:13:55] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 20:13:55] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 20:13:59] "POST /chat/send HTTP/1.1" 200 -

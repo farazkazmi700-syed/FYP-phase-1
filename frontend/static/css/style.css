@@ -1,4 +1,4 @@
-/* Core dark theme: black surfaces, white text, dark red, blue, and green accents. */
+/* Core theme shared by login, chat, and feedback pages. */
 :root {
   --bg: #05070d;
   --panel: #0d111a;
@@ -22,6 +22,9 @@
   --ok: #22c55e;
   --error: #ef4444;
   --radius: 8px;
+  --glass: rgba(0, 0, 0, 0.78);
+  --glass-soft: rgba(13, 17, 26, 0.7);
+  --hero-overlay: linear-gradient(180deg, rgba(5, 7, 13, 0.62), rgba(5, 7, 13, 0.92));
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --sidebar-w: 280px;
   --header-h: 64px;
@@ -43,9 +46,7 @@ body {
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(34, 197, 94, 0.16), transparent 32rem),
-    var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: var(--font);
   font-size: 14px;
@@ -152,6 +153,16 @@ textarea:focus-visible {
 }
 
 /* Login page. */
+.login-body,
+.chat-body,
+.page-body {
+  background:
+    radial-gradient(circle at 72% 36%, rgba(37, 99, 235, 0.22), transparent 22rem),
+    radial-gradient(circle at 18% 80%, rgba(34, 197, 94, 0.14), transparent 18rem),
+    var(--hero-overlay),
+    url("/static/img/login-ai.png") center / cover no-repeat fixed;
+}
+
 .login-body {
   display: grid;
   min-height: 100vh;
@@ -159,10 +170,6 @@ textarea:focus-visible {
   padding: var(--page-pad);
   position: relative;
   isolation: isolate;
-  background:
-    linear-gradient(180deg, rgba(87, 119, 207, 0.619), rgba(5, 7, 13, 0.78)),
-    url("/static/img/login-ai.png") center / cover no-repeat;
-  background-attachment: fixed;
 }
 
 .login-body::before {
@@ -200,7 +207,7 @@ textarea:focus-visible {
 .sidebar-mark {
   display: inline-grid;
   place-items: center;
-  border: 1px solid var(black);
+  border: 1px solid var(--blue);
   background: linear-gradient(135deg, var(--blue-hover), var(--black));
   color: var(--white);
   font-weight: 800;
@@ -231,11 +238,12 @@ textarea:focus-visible {
 
 .login-card,
 .feedback-panel {
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius);
-  background: rgba(29, 39, 60, 0.429);
+  background: var(--glass);
   padding: clamp(18px, 4vw, 28px);
   backdrop-filter: blur(14px);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.32);
 }
 
 .login-card {
@@ -295,7 +303,8 @@ textarea:focus-visible {
   height: 100%;
   flex-direction: column;
   border-right: 1px solid var(--border);
-  background: rgba(0, 0, 0, 0.461);
+  background: var(--glass);
+  backdrop-filter: blur(14px);
   transition: transform 0.2s ease, width 0.2s ease, min-width 0.2s ease;
 }
 
@@ -311,7 +320,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--border);
-  background: rgba(10, 10, 10, 0.596);
+  background: rgba(49, 49, 49, 0.38);
 }
 
 .sidebar-header {
@@ -419,9 +428,8 @@ textarea:focus-visible {
   min-height: 100vh;
   flex: 1;
   flex-direction: column;
-  background:
-    linear-gradient(180deg, rgba(37, 36, 36, 0.82), rgba(0, 0, 0, 0.95)),
-    var(--bg);
+  background: rgba(83, 80, 80, 0.42);
+  backdrop-filter: blur(2px);
 }
 
 .chat-header {
@@ -497,7 +505,8 @@ textarea:focus-visible {
   text-align: center;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: rgba(13, 17, 26, 0.52);
+  background: var(--glass-soft);
+  backdrop-filter: blur(12px);
   padding: clamp(20px, 5vw, 36px);
 }
 
@@ -592,7 +601,7 @@ textarea:focus-visible {
 
 .message.user .msg-bubble {
   border-color: var(--green);
-  background: var(--green);
+  background: rgba(34, 197, 94, 0.16);
   color: var(--white);
 }
 
@@ -616,7 +625,7 @@ textarea:focus-visible {
 }
 
 .btn-feedback-trigger:hover {
-  color: var(--blue);
+  color: var(--green);
 }
 
 .typing-indicator .msg-bubble {
@@ -654,7 +663,8 @@ textarea:focus-visible {
 
 .input-area {
   border-top: 1px solid var(--border);
-  background: rgba(0, 0, 0, 0.92);
+  background: var(--glass);
+  backdrop-filter: blur(14px);
   padding: 14px var(--page-pad);
 }
 
@@ -700,13 +710,9 @@ textarea:focus-visible {
   font-size: 12px;
 }
 
-/* Feedback page. */
+/* Feedback page uses the same image-backed shell as login/chat. */
 .page-body {
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top left, rgba(230, 230, 230, 0.12), transparent 28rem),
-    radial-gradient(circle at bottom right, rgba(127, 29, 29, 0.18), transparent 24rem),
-    var(--bg);
 }
 
 .page-shell {
@@ -718,7 +724,8 @@ textarea:focus-visible {
   width: var(--sidebar-w);
   min-width: var(--sidebar-w);
   border-right: 1px solid var(--border);
-  background: rgba(0, 0, 0, 0.94);
+  background: var(--glass);
+  backdrop-filter: blur(14px);
 }
 
 .page-main {
@@ -757,9 +764,6 @@ textarea:focus-visible {
 
 .feedback-panel {
   width: min(760px, 100%);
-  border-color: var(--border);
-  background: var(--panel);
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
 }
 
 .feedback-header {
